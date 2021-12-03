@@ -1,11 +1,4 @@
-.transform {
-    -webkit-transition: all 2s ease;  
-    -moz-transition: all 2s ease;  
-    -o-transition: all 2s ease;  
-    -ms-transition: all 2s ease;  
-    transition: all 2s ease;
-  }
-  
+
 section{
     display: flex;
     width: 100%;
@@ -32,7 +25,7 @@ section{
         .main--page-header{
             display: flex;
             justify-content: space-between;
-            transition: height, margin .3s ease;
+            // transition: height, margin .3s ease;
             width: 95%;
             .main__link{
                 display: flex;
@@ -59,8 +52,8 @@ section{
         grid-template-columns: 1fr 1fr 1fr;
         gap: 15px;
         padding-top: 20px;
-        transition: all .4s ease;
-        animation: fade 3s infinite;
+        // transition: all .2s ease;
+        // animation: fade 3s infinite;
         .gallery__grid-item {
             background-color: #fff4f9;
             display: flex;
@@ -167,8 +160,8 @@ section{
         display: flex;
         flex-direction: column;
         height: 3000px;
-        transition: all .2s ease;
-        animation: fade 4s infinite;
+        // transition: all .2s ease;
+        // animation: fade 4s infinite;
         .gallery__grid-item {
             display: flex;
             justify-content: center;

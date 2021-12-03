@@ -61,7 +61,6 @@
         });
         let i=0, selected;
         items.forEach(element => {
-          element.classList.add("transform")
             if(search == "all"){
                 selected =  getRandomArbitrary(0,data.length);
                 arrayAll.push(selected)
@@ -71,13 +70,10 @@
             if(search == "All"){
               selected = arrayAll[i]
             }
-            element.setAttribute("loading","lazy")
             element.style.backgroundImage = `url(${data[selected].results[i].urls.full}`;
             element.querySelector(".title").innerHTML = data[selected].results[i].user.last_name;
             element.querySelector(".category").innerHTML = searchWords[selected];
             i=i+1;
-            // let preload = element.querySelector("#preload");
-            // preload.style.display="none"
         });
       }
       //grid or list buttons
@@ -89,7 +85,6 @@
         const items = document.querySelectorAll(".gallery__grid-item");
         if (event.target.classList.contains('options')) {
           let selectedOption = event.target.getAttribute("id")
-          console.log(selectedOption)
           if(selectedOption == "list"){
             document.querySelector(".gallery__grid").classList.add("gallery__list")
             items.forEach(element => {
