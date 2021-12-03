@@ -26,17 +26,18 @@ section{
             display: flex;
             justify-content: space-between;
             width: 95%;
+            list-style: none;
             .main__link{
                 display: flex;
                 font-family: $font-family-first;
+                font-weight: 400;
                 align-items: center;
-                height: 50px;
                 margin: 0;
                 color: gray;
                 cursor: pointer;
                 &:hover {
                     background-color: $color-primary;
-                    padding: 0px 15px;
+                    padding: 10px 15px;
                     color: white;
                 }
             }

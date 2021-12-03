@@ -1191,6 +1191,7 @@ section .container-view-options .main--page-header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 95%;
+  list-style: none;
 }
 
 section .container-view-options .main--page-header .main__link {
@@ -1198,10 +1199,10 @@ section .container-view-options .main--page-header .main__link {
   display: -ms-flexbox;
   display: flex;
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 50px;
   margin: 0;
   color: gray;
   cursor: pointer;
@@ -1209,7 +1210,7 @@ section .container-view-options .main--page-header .main__link {
 
 section .container-view-options .main--page-header .main__link:hover {
   background-color: #fe5571;
-  padding: 0px 15px;
+  padding: 10px 15px;
   color: white;
 }
 
