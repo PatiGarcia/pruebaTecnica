@@ -1,0 +1,30 @@
+footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    align-items: center;
+    justify-content: space-evenly;
+    p {
+        font-family: $font-family-first;
+        font-weight: 400;
+        color: #ABB2B9;
+        .spanColor {
+            color:$color-primary;
+        }
+    }
+    .social-media {
+        top: 0px;
+        cursor: pointer;
+        a{
+            color: #ABB2B9;
+            text-decoration: none;
+            i {
+                padding: 0 10px;
+                &:hover{
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+  }
