@@ -25,7 +25,6 @@ section{
         .main--page-header{
             display: flex;
             justify-content: space-between;
-            // transition: height, margin .3s ease;
             width: 95%;
             .main__link{
                 display: flex;
@@ -35,7 +34,6 @@ section{
                 margin: 0;
                 color: gray;
                 cursor: pointer;
-                transition: color .5s ease;
                 &:hover {
                     background-color: $color-primary;
                     padding: 0px 15px;
@@ -52,8 +50,6 @@ section{
         grid-template-columns: 1fr 1fr 1fr;
         gap: 15px;
         padding-top: 20px;
-        // transition: all .2s ease;
-        // animation: fade 3s infinite;
         .gallery__grid-item {
             background-color: #fff4f9;
             display: flex;
@@ -88,7 +84,6 @@ section{
             list-style: none;
             flex-direction: column;
             font-family: $font-family-first;
-            // font-size: 9px;
             font-weight: 400;
             color: #fff;
             width: 100%;
@@ -101,9 +96,6 @@ section{
                 width: 55%;
                 margin: 7px 0px ;
             }
-            // .category{
-            //     font-size: 7px;
-            // }
         }
         .item-0 {
             grid-row-start: 1;
@@ -160,8 +152,6 @@ section{
         display: flex;
         flex-direction: column;
         height: 3000px;
-        // transition: all .2s ease;
-        // animation: fade 4s infinite;
         .gallery__grid-item {
             display: flex;
             justify-content: center;
@@ -194,7 +184,6 @@ section{
             list-style: none;
             flex-direction: column;
             font-family: $font-family-first;
-            // font-size: 9px;
             font-weight: 400;
             color: #fff;
             width: 100%;
@@ -207,9 +196,6 @@ section{
                 width: 55%;
                 margin: 7px 0px ;
             }
-            // .category{
-            //     font-size: 7px;
-            // }
         }
         .item{
             width: 100%;
