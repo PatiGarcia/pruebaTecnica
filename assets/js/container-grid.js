@@ -114,7 +114,8 @@
           let idOption = txtOption.getAttribute("id")
           if (event.target.classList.contains('main__links')) {
               fillCards(idOption)
-          }else{
+          }
+          if(event.target.classList.contains('one')){
             fillCards("All")
           }
       })
