@@ -6,4 +6,4 @@ Javascript vanilla,
 consumiendo la api Unsplash y
 Gitpages...
 Para ver desplegada la aplicacion dirigase a:
-https://patigarcia.github.io/titaMedia/
+https://patigarcia.github.io/pruebaTecnica/
